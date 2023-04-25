@@ -3,7 +3,7 @@ from scrapy_demo.items import QuoteItem
 
 class DemoSpider(scrapy.Spider):
     name = 'demo_spider'
-     custom_settings = {
+    custom_settings = {
          'FEEDS': {
             'quotes.csv': {
                 'format': 'csv'
